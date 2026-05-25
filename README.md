@@ -1,4 +1,3 @@
-
 # Interview Notebook CLI
 
 A command-line Java application designed to help developers track, manage, and answer technical interview questions. It acts as a local database and uses the Anthropic API (Claude) to automatically generate high-quality, code-backed answers and categorize them by technical topics, ultimately exporting a master Markdown study guide.
@@ -69,7 +68,7 @@ java -jar target/interview-notebook-1.0-SNAPSHOT-jar-with-dependencies.jar [OPTI
 | `-q` | `--question <Text>` | The actual interview question text (use with `-a`). |
 | `-g` | `--generate` | Scan the database and fetch AI answers for any pending questions. |
 | `-m` | `--markdown` | Export the current database into a formatted Markdown file. |
-| `-t` | `--topic-sort` | Sort the generated Markdown by technical topic instead of by company. |
+| `-t` | `--topic` | Sort the generated Markdown by technical topic instead of by company. |
 
 ### Example Workflow
 
